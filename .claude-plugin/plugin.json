@@ -1,0 +1,20 @@
+{
+  "name": "sue-me-audit",
+  "version": "0.1.0",
+  "description": "Read-only legal exposure audit of a codebase: privacy, content, sales, and AI checks with PASS / FAIL / CAN'T TELL verdicts, cited fixes, and a likelihood-ranked fix order. Static: no network calls, no remote fetch, no auto-update.",
+  "author": {
+    "name": "Andrew Luxem"
+  },
+  "homepage": "https://github.com/andrewluxem/sue-me-audit",
+  "repository": "https://github.com/andrewluxem/sue-me-audit",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "claude-code",
+    "compliance",
+    "privacy",
+    "legal-risk",
+    "audit",
+    "skill-md"
+  ]
+}

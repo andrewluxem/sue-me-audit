@@ -1,0 +1,26 @@
+{
+  "name": "sue-me-audit",
+  "version": "0.1.0",
+  "owner": {
+    "name": "Andrew Luxem"
+  },
+  "description": "Static agent skill that audits a codebase for lawsuit exposure across privacy, content, sales, and AI, and returns a ranked fix order.",
+  "plugins": [
+    {
+      "name": "sue-me-audit",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Sue-Me Audit. Read-only. Static: no network calls, no remote fetch, no auto-update. Version-pinned.",
+      "category": "productivity",
+      "tags": [
+        "agent-skills",
+        "claude-code",
+        "compliance",
+        "privacy",
+        "legal-risk",
+        "audit",
+        "skill-md"
+      ]
+    }
+  ]
+}
