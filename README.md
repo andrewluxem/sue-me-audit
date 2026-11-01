@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.svg" alt="sue-me-audit: Read-only agent skill that audits your codebase the way someone looking to sue you would" width="100%"></p>
+<p align="center"><img src="docs/banner.svg" alt="sue-me-audit: Read-only agent skill that audits your codebase the way someone looking to sue you would"></p>
 
 # sue-me-audit
 
