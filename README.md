@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.svg" alt="sue-me-audit: Read-only agent skill that audits your codebase the way someone looking to sue you would"></p>
+
 # sue-me-audit
 
 An agent skill that audits your codebase the way someone looking to sue you would. It checks 24 common sources of legal exposure across privacy, content, sales, and AI features, marks each one PASS, FAIL, or CAN'T TELL, cites the file and line for every failure, and gives you a ranked fix order.

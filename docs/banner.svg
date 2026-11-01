@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-labelledby="t d">
+<title id="t">sue-me-audit</title>
+<desc id="d">Three panels. 1, what someone looking to sue you looks for: five of the 24 check headings in references/checklist.md, including PRIV-01 Privacy policy missing or incomplete and SALE-02 Cancelling harder than signing up. 2, the example row from the repo's report template, not a real audit: PRIV-01, Privacy policy, FAIL, HIGH, evidence app/privacy/page.tsx:12, fix &lt;concrete fix&gt;. 3, the template's fix order with its placeholders, quick wins first, ending with Ready to start fixing? Tell me which batch. Caption: It reports first and changes nothing.</desc>
+<style>
+.serif{font-family:Georgia,"Times New Roman",serif}
+.sans{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.lab{font-size:10px;letter-spacing:1.8px;font-weight:600}
+.cap{font-size:11.5px;fill:#8b9096}
+.hl{fill:none;stroke-width:1.5;opacity:0}
+.h1{animation:h1 12s infinite}
+.h2{animation:h2 12s infinite}
+.h3{animation:h3 12s infinite}
+.r1{animation:r1 12s infinite}
+.r2{animation:r2 12s infinite}
+.r3{animation:r3 12s infinite}
+.r4{animation:r4 12s infinite}
+.r5{animation:r5 12s infinite}
+.rb{animation:rb 12s infinite}
+.rc{animation:rc 12s infinite}
+.rd{animation:rd 12s infinite}
+.re{animation:re 12s infinite}
+.rf{animation:rf 12s infinite}
+.rg{animation:rg 12s infinite}
+.rh{animation:rh 12s infinite}
+@keyframes h1{0%,16.7%{opacity:0}18.7%,42.4%{opacity:1}44.1%,100%{opacity:0}}
+@keyframes h2{0%,16.7%,18.7%,44.1%{opacity:0}45.8%,67.8%{opacity:1}69.5%,100%{opacity:0}}
+@keyframes h3{0%,16.7%,18.7%,69.5%{opacity:0}71.2%,94.9%{opacity:1}96.6%,100%{opacity:0}}
+@keyframes r1{0%,16.7%{opacity:1}18.7%,20.4%{opacity:0}22.1%,100%{opacity:1}}
+@keyframes r2{0%,16.7%{opacity:1}18.7%,22.9%{opacity:0}24.6%,100%{opacity:1}}
+@keyframes r3{0%,16.7%{opacity:1}18.7%,25.5%{opacity:0}27.2%,100%{opacity:1}}
+@keyframes r4{0%,16.7%{opacity:1}18.7%,28%{opacity:0}29.7%,100%{opacity:1}}
+@keyframes r5{0%,16.7%{opacity:1}18.7%,30.6%{opacity:0}32.2%,100%{opacity:1}}
+@keyframes rb{0%,16.7%{opacity:1}18.7%,45%{opacity:0}46.6%,100%{opacity:1}}
+@keyframes rc{0%,16.7%{opacity:1}18.7%,47.5%{opacity:0}49.2%,100%{opacity:1}}
+@keyframes rd{0%,16.7%{opacity:1}18.7%,51.7%{opacity:0}53.4%,100%{opacity:1}}
+@keyframes re{0%,16.7%{opacity:1}18.7%,56.8%{opacity:0}58.5%,100%{opacity:1}}
+@keyframes rf{0%,16.7%{opacity:1}18.7%,71.2%{opacity:0}72.9%,100%{opacity:1}}
+@keyframes rg{0%,16.7%{opacity:1}18.7%,76.3%{opacity:0}78%,100%{opacity:1}}
+@keyframes rh{0%,16.7%{opacity:1}18.7%,82.2%{opacity:0}83.9%,100%{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect width="900" height="300" fill="#141618"/>
+
+<text x="32" y="50" class="serif" font-size="28" fill="#e4dfd4">sue-me-audit</text>
+<text x="219" y="50" class="sans" font-size="13.5" fill="#a9adb2">Read-only agent skill that audits your codebase the way someone looking to sue you would</text>
+
+<g>
+<text x="32" y="88" class="sans lab" fill="#a39bbd">1 · WHAT THEY LOOK FOR</text>
+<rect x="32" y="98" width="262" height="152" rx="3" fill="#1b1e21" stroke="#2e3237"/>
+<rect class="hl h1" x="32" y="98" width="262" height="152" rx="3" stroke="#a39bbd"/>
+<text x="44" y="115" class="mono" font-size="10" fill="#8b9096">references/checklist.md</text>
+<line x1="33" y1="123" x2="293" y2="123" stroke="#2e3237"/>
+<g class="r1"><text x="44" y="145" class="mono" font-size="10" fill="#8b9096">PRIV-01</text><text x="98" y="145" class="sans" font-size="10.5" fill="#e4dfd4">Privacy policy missing or incomplete</text></g>
+<g class="r2"><text x="44" y="167" class="mono" font-size="10" fill="#8b9096">PRIV-03</text><text x="98" y="167" class="sans" font-size="10.5" fill="#e4dfd4">Cookie banner with no reject</text></g>
+<g class="r3"><text x="44" y="189" class="mono" font-size="10" fill="#8b9096">SALE-02</text><text x="98" y="189" class="sans" font-size="10.5" fill="#e4dfd4">Cancelling harder than signing up</text></g>
+<g class="r4"><text x="44" y="211" class="mono" font-size="10" fill="#8b9096">SALE-05</text><text x="98" y="211" class="sans" font-size="10.5" fill="#e4dfd4">Emails with no unsubscribe</text></g>
+<g class="r5"><text x="44" y="233" class="mono" font-size="10" fill="#8b9096">AI-03</text><text x="98" y="233" class="sans" font-size="10.5" fill="#e4dfd4">Chatbot with no self-harm response</text></g>
+<rect class="rb" x="40" y="132" width="246" height="19" fill="none" stroke="#c8963e" stroke-dasharray="3 2"/>
+<text x="32" y="272" class="sans cap">Five of the 24 gaps on its checklist.</text>
+</g>
+
+<g>
+<text x="314" y="88" class="sans lab" fill="#c8963e">2 · PASS, FAIL OR CAN'T TELL</text>
+<rect x="314" y="98" width="292" height="152" rx="3" fill="#17191c" stroke="#2e3237"/>
+<rect class="hl h2" x="314" y="98" width="292" height="152" rx="3" stroke="#c8963e"/>
+<text x="326" y="115" class="mono" font-size="10" fill="#8b9096">assets/report-template.md</text>
+<line x1="315" y1="123" x2="605" y2="123" stroke="#2e3237"/>
+<g class="rc"><g class="sans" font-size="10" fill="#8b9096"><text x="326" y="146">ID</text><text x="384" y="146">Check</text><text x="474" y="146">Verdict</text><text x="534" y="146">Severity</text></g>
+<line x1="326" y1="152.5" x2="594" y2="152.5" stroke="#2e3237"/></g>
+<g class="rd"><text x="326" y="169" class="mono" font-size="10" fill="#e4dfd4">PRIV-01</text><text x="384" y="169" class="sans" font-size="10.5" fill="#e4dfd4">Privacy policy</text><text x="474" y="169" class="mono" font-size="10" fill="#c8963e">FAIL</text><text x="534" y="169" class="mono" font-size="10" fill="#c8963e">HIGH</text>
+<line x1="326" y1="175.5" x2="594" y2="175.5" stroke="#2e3237"/></g>
+<g class="re"><g class="sans" font-size="10" fill="#8b9096"><text x="326" y="199">Evidence</text><text x="474" y="199">Fix</text></g>
+<line x1="326" y1="205.5" x2="594" y2="205.5" stroke="#2e3237"/>
+<g class="mono" font-size="10" fill="#e4dfd4"><text x="326" y="222">app/privacy/page.tsx:12</text><text x="474" y="222">&lt;concrete fix&gt;</text></g>
+<line x1="326" y1="228.5" x2="594" y2="228.5" stroke="#2e3237"/></g>
+<text x="314" y="272" class="sans cap">Every FAIL cites the file and line.</text>
+</g>
+
+<g>
+<text x="626" y="88" class="sans lab" fill="#93ad8c">3 · A RANKED FIX ORDER</text>
+<rect x="626" y="98" width="242" height="152" rx="3" fill="#1b1e21" stroke="#2e3237"/>
+<rect class="hl h3" x="626" y="98" width="242" height="152" rx="3" stroke="#93ad8c"/>
+<text x="638" y="115" class="mono" font-size="10" fill="#8b9096">## Fix order</text>
+<line x1="627" y1="123" x2="867" y2="123" stroke="#2e3237"/>
+<g class="mono" font-size="10" fill="#e4dfd4">
+<g class="rf"><text x="638" y="145">Quick wins (S):</text><text x="638" y="161">1. &lt;ID&gt; &lt;fix&gt; (S)</text></g>
+<g class="rg"><text x="638" y="183">Then:</text><text x="638" y="199">2. &lt;ID&gt; &lt;fix&gt; (M)</text></g>
+</g>
+<g class="rh"><line x1="638" y1="211.5" x2="856" y2="211.5" stroke="#2e3237"/>
+<g class="mono" font-size="10" fill="#93ad8c"><text x="638" y="229">Ready to start fixing?</text><text x="638" y="244">Tell me which batch.</text></g></g>
+<text x="626" y="272" class="sans" font-size="11.5" fill="#93ad8c">It reports first and changes nothing.</text>
+</g>
+</svg>
